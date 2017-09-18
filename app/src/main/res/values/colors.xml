@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--Background color for the app-->
+    <color name="silver_pink_background">#C1B2AB</color>
+
+    <!--Background color for hotel attractions-->
+    <color name="attraction_hotels">#559CAD</color>
+
+    <!--Background color for mall attractions-->
+    <color name="attraction_malls">#4A5899</color>
+
+    <!--Background color for restaurant attractions-->
+    <color name="attraction_restaurants">#8C5383</color>
+
+    <!--Background color for the historical site attractions-->
+    <color name="attraction_historical_sites">92374D</color>
 </resources>

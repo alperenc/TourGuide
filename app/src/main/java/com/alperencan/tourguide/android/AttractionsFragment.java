@@ -10,22 +10,22 @@ import android.widget.TextView;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class AttractionFragment extends Fragment {
+public class AttractionsFragment extends Fragment {
     /**
      * The fragment argument representing the section number for this
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-    public AttractionFragment() {
+    public AttractionsFragment() {
     }
 
     /**
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static AttractionFragment newInstance(int sectionNumber) {
-        AttractionFragment fragment = new AttractionFragment();
+    public static AttractionsFragment newInstance(int sectionNumber) {
+        AttractionsFragment fragment = new AttractionsFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_SECTION_NUMBER, sectionNumber);
         fragment.setArguments(args);
