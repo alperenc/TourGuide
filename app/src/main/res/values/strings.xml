@@ -1,6 +1,6 @@
 <resources>
     <!--App Name-->
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Istanbul Tour Guide</string>
 
     <!--Attraction Lists-->
     <string name="attraction_hotels">Hotels</string>
