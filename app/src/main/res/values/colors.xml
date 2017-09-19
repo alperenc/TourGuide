@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#C1B2AB</color>
+    <color name="colorPrimaryDark">#9E8B82</color>
+    <color name="colorAccent">#73817C</color>
 
     <!--Background color for the app-->
     <color name="silver_pink_background">#C1B2AB</color>
@@ -17,5 +17,5 @@
     <color name="attraction_restaurants">#8C5383</color>
 
     <!--Background color for the historical site attractions-->
-    <color name="attraction_historical_sites">92374D</color>
+    <color name="attraction_historical_sites">#92374D</color>
 </resources>

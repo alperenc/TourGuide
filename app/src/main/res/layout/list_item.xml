@@ -18,6 +18,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@id/image"
+        android:paddingEnd="@dimen/default_padding"
         android:paddingStart="@dimen/default_padding">
 
         <TextView
@@ -25,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/default_element_height"
             android:gravity="bottom"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceListItem"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -34,10 +35,8 @@
             android:layout_height="@dimen/default_element_height"
             android:layout_below="@id/title_text_view"
             android:gravity="top"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceListItemSmall"
             android:textColor="@android:color/white" />
 
     </RelativeLayout>
-
-
 </RelativeLayout>

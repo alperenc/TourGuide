@@ -1,10 +1,101 @@
 <resources>
+    <!--App Name-->
     <string name="app_name">Tour Guide</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--Attraction Lists-->
     <string name="attraction_hotels">Hotels</string>
     <string name="attraction_malls">Malls</string>
     <string name="attraction_restaurants">Restaurants</string>
     <string name="attraction_historical_sites">Historical Sites</string>
 
+    <!--Hotel Attractions-->
+    <string name="hotel_title_barbera">Barbera Hotel</string>
+    <string name="hotel_address_barbera">Sirkeci, Fatih</string>
+    <string name="hotel_title_white_house">White House Hotel Istanbul</string>
+    <string name="hotel_address_white_house">Sultanahmet, Fatih</string>
+    <string name="hotel_title_amira">Hotel Amira Istanbul</string>
+    <string name="hotel_address_amira">Sultanahmet, Fatih</string>
+    <string name="hotel_title_sirkeci_mansion">Sirkeci Mansion</string>
+    <string name="hotel_address_sirkeci_mansion">Sirkeci, Fatih</string>
+    <string name="hotel_title_osmanhan">Osmanhan Hotel</string>
+    <string name="hotel_address_osmanhan">Sultanahmet, Fatih</string>
+    <string name="hotel_title_raffles">Raffles Istanbul</string>
+    <string name="hotel_address_raffles">Levazim, Besiktas</string>
+    <string name="hotel_title_tomtom">Tomtom Suites</string>
+    <string name="hotel_address_tomtom">Tomtom, Beyoglu</string>
+    <string name="hotel_title_park_hyatt">Park Hyatt Istanbul - Macka Palas</string>
+    <string name="hotel_address_park_hyatt">Tesvikiye, Sisli</string>
+    <string name="hotel_title_four_seasons">Four Seasons Istanbul at the Bosphorus</string>
+    <string name="hotel_address_four_seasons">Ciragan, Besiktas</string>
+    <string name="hotel_title_karakoy_port">Karakoy Port Hotel</string>
+    <string name="hotel_address_karakoy_port">Tophane, Beyoglu</string>
+
+    <!--Mall Attractions-->
+    <string name="mall_title_istinye">Istinye Park</string>
+    <string name="mall_address_istinye">Istinye, Sariyer</string>
+    <string name="mall_title_cevahir">Istanbul Cevahir</string>
+    <string name="mall_address_cevahir">Mecidiyekoy, Sisli</string>
+    <string name="mall_title_zorlu">Zorlu Center</string>
+    <string name="mall_address_zorlu">Levazim, Besiktas</string>
+    <string name="mall_title_aqua_florya">Aqua Florya</string>
+    <string name="mall_address_aqua_florya">Florya, Bakirkoy</string>
+    <string name="mall_title_kanyon">Kanyon</string>
+    <string name="mall_address_kanyon">Levent, Besiktas</string>
+    <string name="mall_title_forum">Forum Istanbul</string>
+    <string name="mall_address_forum">Kocatepe, Bayrampasa</string>
+    <string name="mall_title_istanbul">Mall of Istanbul</string>
+    <string name="mall_address_istanbul">Mahmutbey, Basaksehir</string>
+    <string name="mall_title_viaport">Via/Port Outlet</string>
+    <string name="mall_address_viaport">Yenisehir, Pendik</string>
+    <string name="mall_title_akasya">Akasya</string>
+    <string name="mall_address_akasya">Acibadem, Kadikoy</string>
+    <string name="mall_title_emaar">Emaar Square</string>
+    <string name="mall_address_emaar">Unalan, Uskudar</string>
+
+    <!--Restaurant Attractions-->
+    <string name="restaurant_title_deraliye">Deraliye Ottoman Palace Cuisine Restaurant</string>
+    <string name="restaurant_address_deraliye">Sultanahmet, Fatih</string>
+    <string name="restaurant_title_nicole">Nicole</string>
+    <string name="restaurant_address_nicole">Tomtom, Beyoglu</string>
+    <string name="restaurant_title_sans">Sans Restaurant</string>
+    <string name="restaurant_address_sans">Levent, Besiktas</string>
+    <string name="restaurant_title_beyti">Beyti Restaurant</string>
+    <string name="restaurant_address_beyti">Florya, Bakirkoy</string>
+    <string name="restaurant_title_mikla">Mikla Restaurant</string>
+    <string name="restaurant_address_mikla">Pera, Beyoglu</string>
+    <string name="restaurant_title_topaz">Topaz</string>
+    <string name="restaurant_address_topaz">Gumussuyu, Beyoglu</string>
+    <string name="restaurant_title_matbah">Matbah Ottoman Palace Cuisine</string>
+    <string name="restaurant_address_matbah">Sultanahmet, Fatih</string>
+    <string name="restaurant_title_1924">1924Istanbul</string>
+    <string name="restaurant_address_1924">Istiklal, Beyoglu</string>
+    <string name="restaurant_title_tugra">Tugra Restaurant</string>
+    <string name="restaurant_address_tugra">Ciragan, Besiktas</string>
+    <string name="restaurant_title_asitane">Asitane</string>
+    <string name="restaurant_address_asitane">Edirnekapi, Fatih</string>
+
+    <!--Historical Site Attractions-->
+    <string name="historical_site_title_hagia_sophia">Hagia Sophia Museum / Church (Ayasofya)</string>
+    <string name="historical_site_address_hagia_sophia">Sultanahmet, Fatih</string>
+    <string name="historical_site_title_basilica_cistern">Basilica Cistern</string>
+    <string name="historical_site_address_basilica_cistern">Alemdar, Fatih</string>
+    <string name="historical_site_title_eyup_sultan">Eyup Sultan Mosque</string>
+    <string name="historical_site_address_eyup_sultan">Merkez, Eyup</string>
+    <string name="historical_site_title_kucuk_ayasofya">Church of the Saints Sergius and Bacchus (Kucuk Ayasofya Camii)</string>
+    <string name="historical_site_address_kucuk_ayasofya">Kucuk Ayasofya, Fatih</string>
+    <string name="historical_site_title_galata_tower">Galata Tower</string>
+    <string name="historical_site_address_galata_tower">Galata, Beyoglu</string>
+    <string name="historical_site_title_rumeli_fortress">Rumeli Fortress</string>
+    <string name="historical_site_address_rumeli_fortress">Rumeli Hisari, Sariyer</string>
+    <string name="historical_site_title_maidens_tower">Maiden\'s Tower</string>
+    <string name="historical_site_address_maidens_tower">Salacak, Uskudar</string>
+    <string name="historical_site_title_beylerbeyi">Beylerbeyi Palace</string>
+    <string name="historical_site_address_beylerbeyi">Beylerbeyi, Uskudar</string>
+    <string name="historical_site_title_anadolu_kavagi">Anadolu Kavagi</string>
+    <string name="historical_site_address_anadolu_kavagi">Anadolu Kavagi, Beykoz</string>
+    <string name="historical_site_title_valens_aqueduct">Valens Aqueduct (Bozdogan Kemeri)</string>
+    <string name="historical_site_address_valens_aqueduct">Kalenderhane, Fatih</string>
+
+    <!--Miscellaneous-->
     <string name="attraction_image_content_desc">Attraction Image</string>
 </resources>
