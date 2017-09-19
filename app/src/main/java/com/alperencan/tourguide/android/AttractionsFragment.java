@@ -100,16 +100,16 @@ public class AttractionsFragment extends Fragment {
             case 4:
                 // Create a list of historical site attractions
                 final ArrayList<Attraction> historicalSiteAttractions = new ArrayList<Attraction>();
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_hagia_sophia, R.string.historical_site_address_hagia_sophia));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_basilica_cistern, R.string.historical_site_address_basilica_cistern));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_eyup_sultan, R.string.historical_site_address_eyup_sultan));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_kucuk_ayasofya, R.string.historical_site_address_kucuk_ayasofya));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_galata_tower, R.string.historical_site_address_galata_tower));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_rumeli_fortress, R.string.historical_site_address_rumeli_fortress));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_maidens_tower, R.string.historical_site_address_maidens_tower));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_beylerbeyi, R.string.historical_site_address_beylerbeyi));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_anadolu_kavagi, R.string.historical_site_address_anadolu_kavagi));
-                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_valens_aqueduct, R.string.historical_site_address_valens_aqueduct));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_hagia_sophia, R.string.historical_site_address_hagia_sophia, R.drawable.historical_site_image_hagia_sofia));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_basilica_cistern, R.string.historical_site_address_basilica_cistern, R.drawable.historical_site_image_basilica_cistern));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_eyup_sultan, R.string.historical_site_address_eyup_sultan, R.drawable.historical_site_image_eyup_sultan));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_kucuk_ayasofya, R.string.historical_site_address_kucuk_ayasofya, R.drawable.historical_site_image_kucuk_ayasofya));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_galata_tower, R.string.historical_site_address_galata_tower, R.drawable.historical_site_image_galata_tower));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_rumeli_fortress, R.string.historical_site_address_rumeli_fortress, R.drawable.historical_site_image_rumeli_fortress));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_maidens_tower, R.string.historical_site_address_maidens_tower, R.drawable.historical_site_image_maidens_tower));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_beylerbeyi, R.string.historical_site_address_beylerbeyi, R.drawable.historical_site_image_beylerbeyi));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_anadolu_kavagi, R.string.historical_site_address_anadolu_kavagi, R.drawable.historical_site_image_anadolu_kavagi));
+                historicalSiteAttractions.add(new Attraction(R.string.historical_site_title_valens_aqueduct, R.string.historical_site_address_valens_aqueduct, R.drawable.historical_site_image_valens_aqueduct));
 
                 // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
                 // The adapter knows how to create a list items for each item in the list.
